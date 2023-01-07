@@ -6,12 +6,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alura - Encrypt Your Text</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header class="header">
+    <img src="assets/images/logo.png" alt="logo">
+  </header>
+  <main class="main">
+    <div class="input">
+      <textarea id="txt" class="txt-area" placeholder="Ingrese el texto aqui"></textarea>
+      <div class="important">
+        <img class="important-img" src="assets/images/important.png">
+        <p class="important-msg">
+          Solo minusculas y sin acento
+        </p>
+      </div>
+      <div class="input-btns">
+        <button id="encode" class="dark-btn encode" type="button" disabled="">Encriptar</button>
+        <button id="decode" class="light-btn decode" type="button" disabled="">Desencriptar</button>
+      </div>
+    </div>
+    <div id="output" class="output">
+      <img id="avatar" class="avatar" src="assets/images/avatar.png">
+      <h2 id="subtitle" class="subtitle">Ningun mensaje fue encontrado</h2>
+      <p id="no-content" class="no-content">Ingresa el texto que desees encriptar o desencriptar</p>
+      <p id="output-txt" class="output-txt d-none"></p>
+    </div>
+  </main>
+
+  <script src="assets/js/index.js"></script>
+
 </body>
 
 </html>
