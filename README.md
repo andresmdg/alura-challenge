@@ -3,7 +3,6 @@ Este proyecto se realizo a apartir del *1st Alura One Next Education challenge*.
 
 ### Preview del proyecto:
 
-#### Preview:
 https://andresmdg.github.io/alura-challenge/
 
 ## 📋 Acerca del proyecto
