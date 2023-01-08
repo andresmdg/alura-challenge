@@ -2,7 +2,9 @@
 Este proyecto se realizo a apartir del *1st Alura One Next Education challenge*. :rocket:
 
 ### Preview del proyecto:
-*PENDIENTE EN SUBIR*
+
+#### Preview:
+https://andresmdg.github.io/alura-challenge/
 
 ## 📋 Acerca del proyecto
 Aplicacion creada con los lenguajes HTML, CSS, JAVASCRIPT,
